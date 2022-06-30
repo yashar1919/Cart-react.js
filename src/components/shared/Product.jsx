@@ -43,7 +43,7 @@ const Product = ({ itemData }) => {
                             ?
                             <button onClick={() => dispatch({ type: "INCREASE", payload: itemData })} className={styles.smallButton} >+</button>
                             :
-                            <button onClick={() => dispatch({ type: "ADD_ITEM", payload: itemData })}>Add to Card</button>
+                            <button onClick={() => dispatch({ type: "ADD_ITEM", payload: itemData })}>Add to Cart</button>
                     }
 
                 </div>
